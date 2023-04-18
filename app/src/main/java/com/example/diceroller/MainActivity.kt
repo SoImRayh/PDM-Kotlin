@@ -11,13 +11,13 @@ class MainActivity : AppCompatActivity() {
     @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.aula41)
 
-        val rollButton: Button = findViewById(R.id.roll_button)
-        rollButton.setOnClickListener { rollDice() }
-
-        val addOneButton: Button = findViewById(R.id.add_one_button)
-        addOneButton.setOnClickListener{ addOne()}
+//        val rollButton: Button = findViewById(R.id.roll_button)
+//        rollButton.setOnClickListener { rollDice() }
+//
+//        val addOneButton: Button = findViewById(R.id.add_one_button)
+//        addOneButton.setOnClickListener{ addOne()}
     }
 
     private fun rollDice(){
