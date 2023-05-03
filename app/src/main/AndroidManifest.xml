@@ -12,6 +12,27 @@
         android:theme="@style/Theme.DiceRoller"
         tools:targetApi="31">
         <activity
+            android:name=".a5"
+            android:exported="false"
+            android:parentActivityName=".a4"/>
+        <activity
+            android:name=".a4"
+            android:exported="false"
+            android:parentActivityName=".a3"/>
+
+        <activity
+            android:name=".a3"
+            android:exported="false"
+            android:parentActivityName=".a2"/>
+        <activity
+            android:name=".a2"
+            android:exported="false"
+            android:parentActivityName=".a1"/>
+        <activity
+            android:name=".a1"
+            android:exported="false"
+            android:parentActivityName=".MainActivity"/>
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
