@@ -21,11 +21,7 @@ class MainActivity : AppCompatActivity() {
 
         val button: Button = findViewById(R.id.button)
         button.setOnClickListener { nextPage() }
-//        val rollButton: Button = findViewById(R.id.roll_button)
-//        rollButton.setOnClickListener { rollDice() }
-//
-//        val addOneButton: Button = findViewById(R.id.add_one_button)
-//        addOneButton.setOnClickListener{ addOne()}
+
     }
 
     private fun nextPage() {
