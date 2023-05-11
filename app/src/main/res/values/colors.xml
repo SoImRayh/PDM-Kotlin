@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <color name="primary">#FF3700B3</color>
+    <color name="secondary">#FF03DAC5</color>
+    <color name="background">#FFFFFFFF</color>
     <color name="purple_200">#FFBB86FC</color>
     <color name="purple_500">#FF6200EE</color>
     <color name="purple_700">#FF3700B3</color>
@@ -7,4 +10,19 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+<!--    complementar-->
+<!--    <color name="primary">#94FFF8</color>-->
+<!--    <color name="secondary">#77FAF2</color>-->
+<!--    <color name="background">#AD5A31</color>-->
+
+    <!-- triade-->
+<!--    <color name="primary">#28ADAB</color>
+    <color name="secondary">#FA6BD8</color>
+    <color name="background">#53FAF8</color>-->
+
+    <!--monocromatica-->
+<!--    <color name="primary">#1A7A76</color>
+    <color name="secondary">#80FBF5</color>
+    <color name="background">#34FAF1</color>-->
+
 </resources>
